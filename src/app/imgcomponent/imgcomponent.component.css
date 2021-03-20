@@ -1,9 +1,52 @@
-img{
-    text-align: center;
-    width: 50%;
+.nav_container {
+    display: flex;
+    padding: .5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button_group {
+    display: flex;
+    
+  }
+  
+  button {
+    margin: 0 10px;
+  }
 
-}
-p{
-    font-family: cursive;
-    color: rgb(57, 96, 180);
-}
+  .btn{
+    width: 6rem;
+    border-radius: 5px;
+  }
+  .btn-login{
+    border: 2px solid #2b70b8;
+    color: #2b70b8;
+  }
+  .btn-register{
+    background-color: #2b70b8;
+    color: white;
+  }
+  
+  .image {
+    cursor: pointer;
+    width: 120px;
+    outline: none;
+  }
+  
+  .link {
+    cursor: pointer;
+    font-size: 18px;
+    margin: -10px 10px 10px 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .button_group {
+      display: none;
+    }
+  
+    .container {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  

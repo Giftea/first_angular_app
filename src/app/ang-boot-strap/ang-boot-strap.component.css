@@ -1,0 +1,119 @@
+.container_div {
+    background-image: url("../../assets/hero.png");
+ 
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+  }
+  
+  .header_container {
+    padding: 20px 40px;
+    color: #fff;
+    width: 60%;
+  }
+  
+  .header {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .button_group {
+    display: flex;
+    padding: 20px 40px;
+    color: #fff;
+    width: 60%;
+  }
+
+  .btn{
+    width: 9rem;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  .btn-orange{
+    color: white;
+    background-color: #fb9d32;
+  }
+  
+  .button{
+    width: 30%;
+    margin: 0 20px;
+  
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .header_container {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 996px) {
+    .header {
+      font-size: 30px;
+    }
+  
+    .text {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    .container_div {
+      background-position: center;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .button_group {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .header_container {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container_div {
+      background-image: linear-gradient(to right top, #080d14ea, #ffffff8c), url("../../assets/hero.png");
+      background-position: right;
+      background-size: cover;
+    }
+  
+    .button_group {
+      width: 100%;
+    }
+    .button {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .header_container {
+      padding: 20px 20px;
+    }
+  
+    .header {
+      font-size: 28px;
+    }
+  
+    .text {
+      font-size: 14px;
+    }
+    .button_group {
+      padding: 20px 10px;
+    }
+    .button {
+      margin: 0 10px;
+    }
+  }
+  

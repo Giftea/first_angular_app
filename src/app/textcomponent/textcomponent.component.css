@@ -1,5 +1,89 @@
-p{
-    font-size: 18px;
-    color: rgb(182, 58, 78);
+header {
+    background: url("../../assets/blue.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    padding-top: 1%;
+  }
+  
+  header h1 {
+    color: #fff;
     text-align: center;
-}
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .registerCards__holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: -7rem;
+    width: 50%;
+    margin-bottom: 5rem;
+  }
+  
+  .register__cards {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .register__cards p, li{
+    text-align: left;
+  }
+  
+  .button{
+    width: 90%;
+    margin-top: 1rem;
+  }
+  .btn{
+    width: 250px;
+    border-radius: 5px;
+    margin: 15px ;
+  }
+  .btn-orange{
+    color: white;
+    background-color: #fb9d32;
+  }
+  
+  
+  @media screen and (max-width:1200px){
+    .registerCards__holder{
+      width: 70%;
+    }
+  
+  }
+  
+  @media screen and (max-width:650px){
+  
+    .registerCards__holder{
+      grid-template-columns: repeat(1, 1fr);
+      width: 50%;
+  
+    }
+    
+  }
+  
+  @media screen and (max-width:500px){
+  
+    .registerCards__holder{
+      width: 70%;
+    }
+    
+  }
+  
+  @media screen and (max-width:400px){
+    header h1 {
+      font-size: 25px;
+    }
+    .registerCards__holder{
+      width: 80%;
+    }
+    
+  }

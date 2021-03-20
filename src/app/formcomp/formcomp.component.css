@@ -1,4 +1,67 @@
-div{
+.main_container {
+    
+    background-color:#D5d8db;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+  }
+  
+  .block {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+   
+  
+  }
+  
+  .text {
+    margin-bottom: 5px;
+  }
+  
+  .link_groups {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+  
+  }
+  
+  .link_item {
+    cursor: pointer;
+    margin: 0 20px;
+  }
+  
+  
+  @media screen and (max-width:768px){
+  
+    .container{
+      font-size: 10px;
+    }
+  
+    .link_groups {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      
+    }}
+  
+    @media screen and (max-width:400px){
+  
+      .link_item {
+        cursor: pointer;
+        margin: 0 10px;
+      }
+  
+  }
+  
+
+
+
+
+/* div{
     text-align: center;
 }
 label{
@@ -13,4 +76,4 @@ label{
 
 .alert-danger{
     background-color: rgb(179, 46, 46);
-}
+} */
