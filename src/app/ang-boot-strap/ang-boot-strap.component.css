@@ -33,13 +33,18 @@
   }
 
   .btn{
-    width: 9rem;
+    width: 10rem;
     border-radius: 5px;
     margin: 0 10px;
   }
   .btn-orange{
     color: white;
     background-color: #fb9d32;
+  }
+  .btn-orange-login{
+    background-color: transparent;
+    border: 1px solid #fb9d32;
+    color: white;
   }
   
   .button{
@@ -87,6 +92,7 @@
       background-image: linear-gradient(to right top, #080d14ea, #ffffff8c), url("../../assets/hero.png");
       background-position: right;
       background-size: cover;
+      height: 70vh;
     }
   
     .button_group {

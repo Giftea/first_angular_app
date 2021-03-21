@@ -44,6 +44,17 @@
     margin-top: 30px;
     margin: auto;
   }
+  .input{
+    display: block;
+    margin-top: 15px;
+  }
+  .input > input {
+    width: 100%;
+    border: 1px solid rgb(223, 222, 222);
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+  }
   
   .button,
   .button:hover {
