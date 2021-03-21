@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TextcomponentComponent } from './textcomponent/textcomponent.component';
-import { AngBootStrapComponent } from './ang-boot-strap/ang-boot-strap.component';
-import { EmployeeInfoComponent } from './employee-info/employee-info.component';
+import { TextcomponentComponent } from './register/textcomponent.component';
+import { AngBootStrapComponent } from './home/ang-boot-strap.component';
+import { EmployeeInfoComponent } from './login/employee-info.component';
 
 const routes: Routes = [
   {path: "", component: AngBootStrapComponent},

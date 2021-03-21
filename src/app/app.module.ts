@@ -4,15 +4,12 @@ import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TextcomponentComponent } from './textcomponent/textcomponent.component';
-import { ImgcomponentComponent } from './imgcomponent/imgcomponent.component';
-import { FormcompComponent } from './formcomp/formcomp.component';
-import { EmployeeInfoComponent } from './employee-info/employee-info.component';
-import { AngBootStrapComponent } from './ang-boot-strap/ang-boot-strap.component';
-import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
-import { IntroComponent } from './Components/intro/intro.component';
-import { CoursesComponent } from './Components/courses/courses.component';
-import { FooterComponent } from './Components/footer/footer.component';
+import { TextcomponentComponent } from './register/textcomponent.component';
+import { ImgcomponentComponent } from './navbar/imgcomponent.component';
+import { FormcompComponent } from './footer/formcomp.component';
+import { EmployeeInfoComponent } from './login/employee-info.component';
+import { AngBootStrapComponent } from './home/ang-boot-strap.component';
+
 
 @NgModule({
   declarations: [
@@ -21,11 +18,7 @@ import { FooterComponent } from './Components/footer/footer.component';
     ImgcomponentComponent,
     FormcompComponent,
     EmployeeInfoComponent,
-    AngBootStrapComponent,
-    NavBarComponent,
-    IntroComponent,
-    CoursesComponent,
-    FooterComponent
+    AngBootStrapComponent
   ],
   imports: [
     BrowserModule,
